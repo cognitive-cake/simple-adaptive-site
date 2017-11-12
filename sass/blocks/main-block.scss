@@ -18,3 +18,20 @@
     background-color: $light-grey;
   }
 }
+
+@media ($media-sm) {
+  .main-block {
+    &-2 {
+      &__sub-block {
+        margin-left: $margin / 2;
+        margin-right: $margin / 2;
+      }
+      &__col:first-child > &__sub-block {
+        margin-left: 0;
+      }
+      &__col:last-child > &__sub-block {
+        margin-right: 0;
+      }
+    }
+  }
+}
