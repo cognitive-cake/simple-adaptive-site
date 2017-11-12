@@ -58,7 +58,7 @@
     }
     &-4 {
       background-color: $header-blue;
-      height: 438px;
+      height: 600px;
     }
     &__wrapper-2 {
       flex-grow: 1;
@@ -102,6 +102,9 @@
       display: block;
       width: 320px;
       margin-left: 50px;
+    }
+    &-4 {
+      height: 438px;
     }
     &-5 {
       display: flex;
