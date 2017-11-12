@@ -1,0 +1,51 @@
+.header {
+  margin-bottom: 50px;
+
+  &-1 {
+    height: 135px;
+    background-color: $header-blue;
+  }
+
+  &-2 {
+    display: none;
+    height: 135px;
+    background-color: $header-blue;
+  }
+
+  &-3 {
+    display: none;
+    height: 135px;
+    background-color: $header-blue;
+  }
+
+}
+
+@media ($media-md) {
+  .header {
+    display: flex;
+
+    &-1 {
+      width: 320px;
+      margin-right: 50px;
+    }
+
+    &-2 {
+      display: block;
+      flex-grow: 1;
+    }
+  }
+}
+
+@media ($media-lg) {
+  .header {
+    & div {
+      height: 135px;
+    }
+
+    &-3 {
+      display: block;
+      width: 320px;
+      margin-left: 50px;
+    }
+  }
+}

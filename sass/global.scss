@@ -1,21 +1,19 @@
 body {
   padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-// .container {
-//   padding: 0;
-// }
+@media ($media-sm) {
+  body {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
+}
 
-// .row {
-//   margin-right: 0;
-//   margin-left: 0;
-// }
-
-// .col,
-// [class*="col-"] {
-//   padding: 0;
-// }
-
-header {
-  margin-bottom: $margin;
+@media ($media-md) {
+  body {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
 }
