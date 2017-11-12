@@ -1,5 +1,9 @@
 .main {
 
+  &__wrapper-1 {
+    display: none;
+  }
+
   &-1 {
     height: 320px;
     background-color: $light-grey;
@@ -34,6 +38,27 @@
 
     &__sub-block:last-child {
       margin-left: 50px;
+    }
+  }
+}
+
+@media ($media-md) {
+  .main {
+    display: flex;
+
+    &__wrapper-1 {
+      display: block;
+      margin-right: 50px;
+    }
+
+    &-4 {
+      background-color: $header-blue;
+      width: 320px;
+      height: 600px;
+    }
+
+    &__wrapper-2 {
+      flex-grow: 1;
     }
   }
 }
