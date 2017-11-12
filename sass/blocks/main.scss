@@ -1,15 +1,16 @@
 .main {
+
   &-1 {
     height: 320px;
     background-color: $light-grey;
-    margin-bottom: $margin
+    margin-bottom: 50px;
   }
 
   &-2 {
     &__sub-block {
       height: 135px;
       background-color: $dark-grey;
-      margin-bottom: $margin;
+      margin-bottom: 50px;
     }
   }
 
@@ -20,18 +21,19 @@
 }
 
 @media ($media-sm) {
-  .main-block {
-    &-2 {
-      &__sub-block {
-        margin-left: $margin / 2;
-        margin-right: $margin / 2;
-      }
-      &__col:first-child > &__sub-block {
-        margin-left: 0;
-      }
-      &__col:last-child > &__sub-block {
-        margin-right: 0;
-      }
+  .main-2 {
+    display: flex;
+
+    &__sub-block {
+      width: 100%;
+    }
+
+    &__sub-block:first-child {
+      margin-right: 50px;
+    }
+
+    &__sub-block:last-child {
+      margin-left: 50px;
     }
   }
 }

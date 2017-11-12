@@ -1,6 +1,12 @@
 body {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
-header {
-  margin-bottom: $margin;
+@media ($media-sm) {
+  body {
+    padding-left: 64px;
+    padding-right: 64px;
+  }
 }

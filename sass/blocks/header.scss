@@ -1,6 +1,30 @@
 .header {
+  margin-bottom: 50px;
+
   &-1 {
     height: 138px;
     background-color: $header-blue;
+  }
+
+  &-2 {
+    display: none;
+    height: 138px;
+    background-color: $header-blue;
+  }
+}
+
+@media ($media-md) {
+  .header {
+    display: flex;
+
+    &-1 {
+      width: 320px;
+      margin-right: 50px;
+    }
+
+    &-2 {
+      display: block;
+      width: 100%;
+    }
   }
 }
