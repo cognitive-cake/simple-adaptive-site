@@ -6,6 +6,13 @@ body {
 
 @media ($media-sm) {
   body {
+    padding-left: 66px;
+    padding-right: 66px;
+  }
+}
+
+@media ($media-md) {
+  body {
     padding-left: 64px;
     padding-right: 64px;
   }
