@@ -1,0 +1,20 @@
+.main-block {
+  &-1 {
+    height: 320px;
+    background-color: $light-grey;
+    margin-bottom: $margin
+  }
+
+  &-2 {
+    &__sub-block {
+      height: 135px;
+      background-color: $dark-grey;
+      margin-bottom: $margin;
+    }
+  }
+
+  &-3 {
+    height: 140px;
+    background-color: $light-grey;
+  }
+}

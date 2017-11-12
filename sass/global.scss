@@ -1,3 +1,21 @@
-
 body {
+  padding-top: 50px;
+}
+
+.container {
+  padding: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.col,
+[class*="col-"] {
+  padding: 0;
+}
+
+header {
+  margin-bottom: $margin;
 }
